@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <motion.div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 ">
       <div className="flex flex-col items-start justify-start gap-6">
-        <div className="px-4 py-1 flex items-center justify-center gap-2 bg-orange-100 rounded-full">
-          <p className="text-lg font-semibold text-orange-500">Free Delivery</p>
+        <div className="px-4 py-1 flex items-center justify-center gap-2 bg-delivery rounded-full">
+          <p className="text-lg font-semibold text-green-600">Free Delivery</p>
           <div className="w-10 h-10 flex items-center justify-center rounded-full bg-primary shadow-md">
             <img
               src={Delivery}
@@ -21,7 +21,7 @@ const Home = () => {
 
         <p className="text-[40px] text-headingColor md:text-[72px] font-sans font-extrabold tracking-wider">
           Freshness Directly from{" "}
-          <span className="text-orange-600">Farm</span>
+          <span className="text-farm">Farm</span>
         </p>
 
         <p className="text-textColor text-lg">
@@ -31,7 +31,7 @@ const Home = () => {
         </p>
         <motion.button
           {...buttonClcik}
-          className="bg-gradient-to-bl from-orange-400 to-orange-600 px-4 py-2 rounded-xl text-black text-base font-semibold"
+          className="bg-gradient-to-bl from-green-500 to-green-800 px-4 py-2 rounded-xl text-white text-base font-semibold"
         >
           Order Now
         </motion.button>
@@ -66,7 +66,7 @@ const Home = () => {
                 </p>
 
                 <p className="text-sm  font-semibold text-headingColor">
-                  <span className="text-xs text-red-600">$</span>{" "}
+                  <span className="text-xs text-farm">₹</span>{" "}
                   {data.product_price}
                 </p>
               </motion.div>

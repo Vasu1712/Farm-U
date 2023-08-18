@@ -80,7 +80,7 @@ const Header = () => {
         >
           <MdShoppingCart className="text-3xl text-textColor" />
           {cart?.length > 0 && (
-            <div className="w-6 h-6 rounded-full bg-red-500 flex items-center justify-center absolute -top-4 -right-1">
+            <div className="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center absolute -top-4 -right-1">
               <p className="text-primary text-base font-semibold">
                 {cart?.length}
               </p>
@@ -111,7 +111,7 @@ const Header = () => {
                 >
                   {user?.user_id === process.env.REACT_APP_ADMIN_ID && (
                     <Link
-                      className=" hover:text-red-500 text-xl text-textColor"
+                      className=" hover:text-green-500 text-xl text-textColor"
                       to={"/dashboard/home"}
                     >
                       Dashboard
@@ -119,13 +119,13 @@ const Header = () => {
                   )}
 
                   <Link
-                    className=" hover:text-red-500 text-xl text-textColor"
+                    className=" hover:text-green-500 text-xl text-textColor"
                     to={"/profile"}
                   >
                     My Profile
                   </Link>
                   <Link
-                    className=" hover:text-red-500 text-xl text-textColor"
+                    className=" hover:text-green-500 text-xl text-textColor"
                     to={"/user-orders"}
                   >
                     Orders
@@ -151,7 +151,7 @@ const Header = () => {
             <NavLink to={"/login"}>
               <motion.button
                 {...buttonClcik}
-                className="px-4 py-2 rounded-md shadow-md bg-lightOverlay border border-red-300 cursor-pointer"
+                className="px-4 py-2 rounded-md shadow-md bg-lightOverlay border border-farm cursor-pointer"
               >
                 Login
               </motion.button>

@@ -55,6 +55,8 @@ module.exports = {
         cartBg: "#282a2c",
         cartItem: "#2e3033",
         cartTotal: "#343739",
+        farm: "#19702C",
+        delivery: "#BCDF9A",
       },
     },
   },

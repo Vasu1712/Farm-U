@@ -30,7 +30,7 @@ const SliderCard = ({ data, index }) => {
         <p className="text-xl text-headingColor font-semibold">
           {data.product_name}
         </p>
-        <p className="text-lg font-semibold text-red-500 flex items-center justify-center gap-1">
+        <p className="text-lg font-semibold text-green-700 flex items-center justify-center gap-1">
           <HiCurrencyRupee className="text-red-500" />{" "}
           {parseFloat(data.product_price).toFixed(2)}
         </p>

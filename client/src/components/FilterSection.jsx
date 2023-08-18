@@ -14,8 +14,8 @@ const FilterSection = () => {
     <motion.div className="w-full flex items-start justify-start flex-col">
       <div className=" w-full flex items-center justify-between ">
         <div className="flex flex-col items-start justify-start gap-1">
-          <p className="text-2xl text-headingColor font-bold">Our Hot Dishes</p>
-          <div className="w-40 h-1 rounded-md bg-orange-500"></div>
+          <p className="text-2xl text-headingColor font-bold">Find your Fresh</p>
+          <div className="w-40 h-1 rounded-md bg-green-600"></div>
         </div>
       </div>
 
@@ -48,18 +48,18 @@ export const FilterCard = ({ data, index, category, setCategory }) => {
       {...staggerFadeInOut(index)}
       onClick={() => setCategory(data.category)}
       className={`group w-28 min-w-[128px] cursor-pointer rounded-md  py-6 ${
-        category === data.category ? "bg-red-500" : "bg-primary"
-      } hover:bg-red-500 shadow-md flex flex-col items-center justify-center gap-4`}
+        category === data.category ? "bg-green-600" : "bg-primary"
+      } hover:bg-green-600 shadow-md flex flex-col items-center justify-center gap-4`}
     >
       <div
         className={`w-10 h-10 rounded-full shadow-md flex items-center justify-center group-hover:bg-primary ${
-          category === data.category ? "bg-primary" : "bg-red-500"
+          category === data.category ? "bg-primary" : "bg-green-600"
         }`}
       >
         <IoFastFood
           className={`${
-            category === data.category ? "text-red-500" : "text-primary"
-          } group-hover:text-red-500`}
+            category === data.category ? "text-green-700" : "text-primary"
+          } group-hover:text-green-700`}
         />
       </div>
       <p
