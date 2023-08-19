@@ -26,6 +26,7 @@ router.get("/jwtVerfication", async (req, res) => {
       msg: `Error in extracting the token : ${err}`,
     });
   }
+  // res.send("jwt verfied token");
 });
 
 const listALlUsers = async (nextpagetoken) => {
