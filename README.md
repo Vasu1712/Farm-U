@@ -1,7 +1,7 @@
 > FarmU is a serverless Ecommerce application based out on MERN stack!
 
 
-![This is the Project Thumbnail](./snap.png)
+<![This is the Project Thumbnail](./snap.png)>
 
 
 # FarmU: New-age E-commerce Application for Farmers
@@ -60,7 +60,7 @@ FarmU is an E-commerce platform that connects consumers with locally grown, high
 *Detailed view of a product listing.*
 
 ![FarmU Chatbot]()
-*Assistant chatbot generating uselful stuff.*
+*Assistant chatbot generating useful stuff.*
 
 ### Admin Dashboard
 ![Dashboard]()
